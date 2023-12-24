@@ -14,7 +14,7 @@ namespace SerilogDemo
 
             try
             {
-                Log.Information("Application Starting Up");
+                Log.Information("Application Starting Up.");
                 CreateHostBuilder(args).Build().Run();
             }
             catch (Exception ex)
